@@ -1,0 +1,71 @@
+name: 問題回報
+description: 回報 SandTrayOnline 頁面遇到的問題
+title: "[問題回報] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝協助回報問題。請勿填寫密碼、驗證碼、個人資料或其他機密資訊。
+
+  - type: input
+    id: page_url
+    attributes:
+      label: 發生問題的網址
+      description: 請提供可以重現問題的完整網址。
+      placeholder: https://example.com/page
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 問題描述
+      description: 請描述你遇到的情況。
+      placeholder: 發生了什麼問題？
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重現步驟
+      description: 請依序說明如何再次遇到這個問題。
+      placeholder: |
+        1. 前往 ...
+        2. 點選 ...
+        3. 看到 ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期結果
+      description: 請說明你原本預期發生什麼事。
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 實際結果
+      description: 請說明實際發生了什麼事，並可附上錯誤訊息。
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 使用環境
+      description: 請提供瀏覽器、裝置或作業系統等有助於排查的資訊。
+      placeholder: 例如：Chrome 版本、Windows 11
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 其他資訊或截圖
+      description: 可提供其他有助於了解或重現問題的資訊。
+    validations:
+      required: false
