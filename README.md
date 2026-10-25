@@ -1,21 +1,22 @@
-# SandTrayOnline 問題回報
+# SandTrayOnline Issues / 問題回報
 
-這個 repository 僅用來收集 SandTrayOnline 使用者回報的問題。若你在某個頁面遇到問題，請到 GitHub 的 **Issues** 頁面建立 Issue，並提供發生問題的網址與相關資訊，協助我們重現及處理。
+這個 repository 僅用來收集 SandTrayOnline 使用者的問題回報與模型建議。請到 GitHub 的 **Issues** 頁面，選擇適合的表單建立 Issue。
 
-## 回報問題
+This repository is dedicated to collecting problem reports and model suggestions from SandTrayOnline users. Go to the **Issues** page on GitHub and choose the appropriate form to create an issue.
 
-1. 前往 repository 的 **Issues** 頁面。
-2. 選擇 **New issue**，並使用「問題回報」表單。
-3. 填寫發生問題的完整網址、問題描述，以及重現步驟；如果可以，也請補充預期結果、實際結果和截圖。
-4. 按下 **Submit new issue** 送出。
+## 問題回報 / Problem Report
 
-請勿在 Issue 中提供密碼、驗證碼、個人資料或其他機密資訊。Issue 內容可能會公開顯示。
+遇到頁面問題時，使用 **Problem Report** 表單，提供問題發生的完整網址、問題描述與重現步驟。若可行，也請補充預期結果、實際結果、使用環境和截圖。
 
-## Repository 管理設定
+If you encounter a problem on a page, use the **Problem Report** form to provide the full URL, a description of the problem, and steps to reproduce it. If possible, also include the expected and actual results, your environment, and screenshots.
 
-請由 repository 管理員在 GitHub 的 **Settings → General → Features** 設定：
+## 模型建議 / Model Suggestion
 
-- 開啟 **Issues**，讓客戶能建立及追蹤問題回報。
-- 關閉 **Pull Requests**，讓此 repository 僅作為問題回報管道。
+提出模型建議時，使用 **Model Suggestion** 表單，並提供參考圖片、參考網址、顯示名稱與相關 tags。
 
-Issue 表單與空白 Issue 設定位於 [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/)；GitHub 的 **Features** 開關仍須由管理員在上述設定頁調整。
+To suggest a model, use the **Model Suggestion** form and provide a reference image, reference URL, display name, and related tags.
+
+- 參考圖片：將圖片貼上或拖曳到表單欄位。 / **Reference image:** Paste or drag the image into the form field.
+- 參考網址。 / **Reference URL.**
+- 顯示名稱。 / **Display name.**
+- 相關 tags（以逗號分隔）。 / **Related tags (comma-separated).**

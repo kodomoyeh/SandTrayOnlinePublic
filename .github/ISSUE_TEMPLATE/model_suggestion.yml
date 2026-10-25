@@ -1,0 +1,43 @@
+name: Model Suggestion
+description: Suggest a model for future processing
+title: "[Model Suggestion] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide a reference image, a reference URL, a display name, and related tags. Do not include passwords, personal information, or other sensitive data.
+
+  - type: textarea
+    id: reference_image
+    attributes:
+      label: Reference Image
+      description: Required. Drag and drop or paste the reference image into this field.
+      placeholder: Attach the reference image here.
+    validations:
+      required: true
+
+  - type: input
+    id: reference_url
+    attributes:
+      label: Reference URL
+      description: Provide the URL related to this model suggestion.
+      placeholder: https://example.com/
+    validations:
+      required: true
+
+  - type: input
+    id: display_name
+    attributes:
+      label: Display Name
+      description: Provide the name to display for this model.
+    validations:
+      required: true
+
+  - type: input
+    id: related_tags
+    attributes:
+      label: Related Tags
+      description: Enter related tags separated by commas.
+      placeholder: tag1, tag2, tag3
+    validations:
+      required: true
